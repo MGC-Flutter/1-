@@ -4,8 +4,9 @@ import 'package:blog_web_app/screen/home_screen.dart';
 void main() {
   WidgetsFlutterBinding.ensureInitialized();
 
-  runApp(MaterialApp(
-    home: HomeScreen(),
+  runApp(const MaterialApp(
+    home: WebViewApp(),
+    debugShowCheckedModeBanner: false,
   ));
 }
 
